@@ -1,6 +1,6 @@
 {
   "name": "inter-metrics",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Dynamic Metrics calculator for Inter font",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
