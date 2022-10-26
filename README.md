@@ -1,6 +1,6 @@
 # inter-metrics
 
-[Dynamic Metrics](https://rsms.me/inter/dynmetrics/) for Inter font
+[Dynamic Metrics](https://rsms.me/inter/dynmetrics/) calculator for Inter font
 
 ## Installation
 
@@ -16,7 +16,6 @@ import { textStyle } from "inter-metrics";
 
 textStyle(16);
 
-// Output
 // {
 //   "fontSize": 16,
 //   "letterSpacing": -0.010959778564167367,

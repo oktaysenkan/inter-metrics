@@ -1,7 +1,7 @@
 {
   "name": "inter-metrics",
   "version": "0.2.0",
-  "description": "Metrics for inter font",
+  "description": "Dynamic Metrics calculator for Inter font",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -55,6 +55,7 @@
     "@commitlint/config-conventional": "^17.0.2",
     "@react-native-community/eslint-config": "^3.0.2",
     "@release-it/conventional-changelog": "^5.0.0",
+    "@release-it/keep-a-changelog": "^3.1.0",
     "@types/jest": "^28.1.2",
     "@types/react": "~17.0.21",
     "@types/react-native": "0.68.0",
@@ -104,6 +105,9 @@
     "plugins": {
       "@release-it/conventional-changelog": {
         "preset": "angular"
+      },
+      "@release-it/keep-a-changelog": {
+        "filename": "CHANGELOG.md"
       }
     }
   },
