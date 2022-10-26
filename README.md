@@ -17,9 +17,9 @@ import { textStyle } from "inter-metrics";
 textStyle(16);
 
 // {
-//   "fontSize": 16,
-//   "letterSpacing": -0.010959778564167367,
-//   "lineHeight": 22.4,
+// "fontSize": 16,
+// "letterSpacing": -0.011,
+// "lineHeight": 22.4
 // }
 ```
 

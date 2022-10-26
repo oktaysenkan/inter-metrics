@@ -6,8 +6,6 @@ import { textStyle } from 'inter-metrics';
 const starting = 8;
 
 export default function App() {
-  console.log(textStyle(16));
-
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollView}>

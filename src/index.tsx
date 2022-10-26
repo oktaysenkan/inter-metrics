@@ -16,11 +16,17 @@ export const calculateLeading = (fontSize: number) => {
   return leading;
 };
 
+const round = (number: number, decimal: number) => {
+  const p = Math.pow(10, decimal);
+
+  return Math.round((number + Number.EPSILON) * p) / p;
+};
+
 export const textStyle = (fontSize: number) => {
   const style = {
     fontSize,
-    letterSpacing: calculateTracking(fontSize),
-    lineHeight: calculateLeading(fontSize),
+    letterSpacing: round(calculateTracking(fontSize), 3),
+    lineHeight: round(calculateLeading(fontSize), 1),
   };
 
   return style;
