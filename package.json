@@ -104,10 +104,8 @@
     },
     "plugins": {
       "@release-it/conventional-changelog": {
-        "preset": "angular"
-      },
-      "@release-it/keep-a-changelog": {
-        "filename": "CHANGELOG.md"
+        "preset": "angular",
+        "infile": "CHANGELOG.md"
       }
     }
   },
